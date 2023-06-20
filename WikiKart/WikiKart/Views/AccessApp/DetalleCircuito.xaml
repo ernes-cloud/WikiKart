@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WikiKart.Views.AccessApp.DetalleCircuito">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="✏️"
+                     Clicked="OnNoteAddedClicked2" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image x:Name="MyImageCall" HeightRequest="200" WidthRequest="500"/>
+                <Label x:Name="MyItemNameShow" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="20"/>
+                <Label x:Name="MyCircuitoItemShow" Margin="20,20" FontSize="Small"/>
+                <Label Margin="20,20" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="Center">Trazado del circuito</Label>
+                <Label Margin="20,20" x:Name="TrazadoItem" HorizontalTextAlignment="Center" FontSize="14"/>
+                <Image x:Name="imagenTrazadoItem" HeightRequest="300" WidthRequest="500"/>
+                <Label Margin="20,20" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="Center">Flota de Karts</Label>
+                <Label Margin="20,20" x:Name="FlotaKartsItem" HorizontalTextAlignment="Center" FontSize="14"/>
+                <Image x:Name="imagenFlotaKartsItem" HeightRequest="300" WidthRequest="500"/>
+                <Label Margin="20,20" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="Center">Actividades</Label>
+                <Label Margin="20,20" x:Name="ActividadesItem" HorizontalTextAlignment="Center" FontSize="14"/>
+                <Image x:Name="imagenActividadesItem" HeightRequest="300" WidthRequest="500"/>
+                <Label Margin="20,20" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="Center">Instalaciones</Label>
+                <Label Margin="20,20" x:Name="InstalacionesItem" HorizontalTextAlignment="Center" FontSize="14"/>
+                <Image x:Name="imagenInstalacionesItem" HeightRequest="300" WidthRequest="500"/>
+                <Label Margin="20,20" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="Center">Contacto</Label>
+                <Label Margin="20,20" x:Name="telefonoItem" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="15"/>
+                <Label Margin="20,20" x:Name="emailItem" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="12"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+    
+</ContentPage>

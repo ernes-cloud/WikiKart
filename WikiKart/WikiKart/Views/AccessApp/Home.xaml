@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WikiKart.Views.AccessApp.Home">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Margin="20,20" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="Center">CIRCUITOS FAVORITOS</Label>
+            <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image
+                                HeightRequest="60"
+                                HorizontalOptions="CenterAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                Aspect="AspectFill"
+                                WidthRequest="66"
+                                Grid.RowSpan="2"
+                                Source="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1024/https://wikikarting.com/wp-content/uploads/2022/05/Cabecera-Go-Karts-Orihuela-Costa.webp"
+                                />
+                <Label Grid.Column="1"
+                                   Text="Go-Karts Orihuela Costa"
+                                   FontAttributes="Bold"
+                                   VerticalOptions="End"/>
+                <Label Grid.Column="1"
+                                   Grid.Row="1"
+                                   VerticalOptions="Start"
+                                   Text="Go-Karts Orihuela Costa es un circuito de karts outdoor (al aire libre) situado entre Dehesa de Campoamor y Torrevieja"/>
+                
+            </Grid>
+            <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image
+                                HeightRequest="60"
+                                HorizontalOptions="CenterAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                Aspect="AspectFill"
+                                WidthRequest="66"
+                                Grid.RowSpan="2"
+                                Source="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1024/https://wikikarting.com/wp-content/uploads/2022/05/Cabecera-Go-Karts-Orihuela-Costa.webp"
+                                />
+                <Label Grid.Column="1"
+                                   Text="Go-Karts Orihuela Costa"
+                                   FontAttributes="Bold"
+                                   VerticalOptions="End"/>
+                <Label Grid.Column="1"
+                                   Grid.Row="1"
+                                   VerticalOptions="Start"
+                                   Text="Go-Karts Orihuela Costa es un circuito de karts outdoor (al aire libre) situado entre Dehesa de Campoamor y Torrevieja"/>
+
+            </Grid>
+            <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image
+                                HeightRequest="60"
+                                HorizontalOptions="CenterAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                Aspect="AspectFill"
+                                WidthRequest="66"
+                                Grid.RowSpan="2"
+                                Source="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1024/https://wikikarting.com/wp-content/uploads/2022/05/Cabecera-Go-Karts-Orihuela-Costa.webp"
+                                />
+                <Label Grid.Column="1"
+                                   Text="Go-Karts Orihuela Costa"
+                                   FontAttributes="Bold"
+                                   VerticalOptions="End"/>
+                <Label Grid.Column="1"
+                                   Grid.Row="1"
+                                   VerticalOptions="Start"
+                                   Text="Go-Karts Orihuela Costa es un circuito de karts outdoor (al aire libre) situado entre Dehesa de Campoamor y Torrevieja"/>
+
+            </Grid>
+            <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image
+                                HeightRequest="60"
+                                HorizontalOptions="CenterAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                Aspect="AspectFill"
+                                WidthRequest="66"
+                                Grid.RowSpan="2"
+                                Source="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1024/https://wikikarting.com/wp-content/uploads/2022/05/Cabecera-Go-Karts-Orihuela-Costa.webp"
+                                />
+                <Label Grid.Column="1"
+                                   Text="Go-Karts Orihuela Costa"
+                                   FontAttributes="Bold"
+                                   VerticalOptions="End"/>
+                <Label Grid.Column="1"
+                                   Grid.Row="1"
+                                   VerticalOptions="Start"
+                                   Text="Go-Karts Orihuela Costa es un circuito de karts outdoor (al aire libre) situado entre Dehesa de Campoamor y Torrevieja"/>
+
+            </Grid>
+            <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image
+                                HeightRequest="60"
+                                HorizontalOptions="CenterAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                Aspect="AspectFill"
+                                WidthRequest="66"
+                                Grid.RowSpan="2"
+                                Source="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1024/https://wikikarting.com/wp-content/uploads/2022/05/Cabecera-Go-Karts-Orihuela-Costa.webp"
+                                />
+                <Label Grid.Column="1"
+                                   Text="Go-Karts Orihuela Costa"
+                                   FontAttributes="Bold"
+                                   VerticalOptions="End"/>
+                <Label Grid.Column="1"
+                                   Grid.Row="1"
+                                   VerticalOptions="Start"
+                                   Text="Go-Karts Orihuela Costa es un circuito de karts outdoor (al aire libre) situado entre Dehesa de Campoamor y Torrevieja"/>
+
+            </Grid>
+            <Button Text="Cerrar sesión" Clicked="LogOutButton"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
